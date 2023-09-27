@@ -12,7 +12,7 @@ a {
 
 }
 a:hover{
-  box-shadow: 2px 2px 5px rgb(0,0,255);
+  box-shadow: 5px 5px 15px rgb(0,0,255);
 }
 header {
 
@@ -58,7 +58,7 @@ div.main {
 }
 
 p {
-  padding-left: 10%;
+  padding-left: 15%;
   font-size: 25px;
   box-sizing: border-box;
 }
@@ -87,36 +87,44 @@ li:hover {
 button:hover {
   transform: scale(1.1, 1.1);
   transition: 0.5s;
-  box-shadow: 4px 4px 10px rgb(0,0,255);
+  box-shadow: 5px 5px 15px rgb(0,0,255);
 }
 
 span {
-  animation: color 5s ease-in-out infinite alternate;
+  animation: color 15s ease-in-out infinite alternate;
 }
 
 @keyframes color {
   0% {
-    color: rgb(236, 12, 12);
+    color: rgb(148, 0, 211);
   }
 
-  20% {
-    color: rgb(255, 98, 0);
+  14.285% {
+    color: rgb(75, 0, 130);
   }
 
-  40% {
-    color: rgb(231, 241, 38);
+  28.571% {
+    color: rgb(0, 0, 255);
   }
 
-  60% {
-    color: rgb(142, 243, 10);
+  42.855% {
+    color: rgb(0, 255, 0);
   }
 
-  80% {
-    color: rgb(0, 251, 255);
+  57.14% {
+    color: rgb(255, 255, 0);
+  }
+
+  71.425% {
+    color: rgb(255, 127, 0);
+  }
+
+  85.71% {
+    color: rgb(255, 0, 0);
   }
 
   100% {
-    color: rgb(255, 0, 251);
+    color: rgb(148, 0, 211);
   }
 }
 
@@ -273,12 +281,6 @@ span {
 }
 
 @media only screen and (max-width: 500px) {
-  /* header {
-    font-size: 100%;
-    padding: 0;
-    width: 10%;
-  } */
-
   div.main {
     font-size: 80%;
     padding: 30% 0 10% 0;
